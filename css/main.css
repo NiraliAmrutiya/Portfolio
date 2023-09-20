@@ -1374,15 +1374,24 @@ header .logo a {
   header .top-bar {
     left: 50px;
   }
+  .navigation > li{
+    padding: 0 1rem;
+  }
 }
 @media only screen and (max-width: 600px) {
   header .top-bar {
     left: 35px;
   }
+  .navigation > li{
+    padding: 0 1rem;
+  }
 }
 @media only screen and (max-width: 400px) {
   header .top-bar {
     left: 25px;
+  }
+  .navigation > li{
+    padding: 0 1rem;
   }
 }
 
@@ -1527,7 +1536,7 @@ header .logo a {
 }
 @media only screen and (max-width: 768px) {
   #introduction {
-    min-height: 660px;
+    /* min-height: 660px; */
   }
   .intro-content h1 {
     font-size: 5.2rem;
@@ -1544,10 +1553,11 @@ header .logo a {
   .intro-social li {
     margin: 0 10px;
   }
+  
 }
 @media only screen and (max-width: 600px) {
   #introduction {
-    min-height: 600px;
+    /* min-height: 600px; */
   }
   .intro-content h1 {
     font-size: 4.6rem;
@@ -1571,6 +1581,7 @@ header .logo a {
   .intro-social {
     font-size: 2.4rem;
   }
+  
 }
 
 /** 
