@@ -1322,20 +1322,15 @@ header .logo a {
   font-family: "poppins-medium", sans-serif;
   font-size: 1.5rem;
   background-color: #151515;
-  /* position: absolute; */
-  /* top: 100%;
-	left: 0; */
+ 
 }
 
 /* dropdown nav */
 .navigation {
-  /* background: #000000; */
-  /* padding: 24px 30px 42px; */
   margin: 0;
   width: 100%;
   height: auto;
   clear: both;
-  /* display: none; */
 }
 .navigation > li {
   display: inline-block;
@@ -1371,9 +1366,6 @@ header .logo a {
   }
 }
 @media only screen and (max-width: 768px) {
-  header .top-bar {
-    left: 50px;
-  }
   .navigation > li{
     padding: 0 1rem;
   }
@@ -1387,11 +1379,13 @@ header .logo a {
   }
 }
 @media only screen and (max-width: 400px) {
-  header .top-bar {
-    left: 25px;
-  }
   .navigation > li{
-    padding: 0 1rem;
+    padding: 0 0.5rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .navigation > li{
+    padding: 0 0.5rem;
   }
 }
 
@@ -1592,8 +1586,8 @@ header .logo a {
  */
 #about {
   background: #ffffff;
-  padding-top: 10rem;
-  padding-bottom: 15rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 #about .section-intro {
   margin-top: 3rem;
@@ -1702,6 +1696,9 @@ header .logo a {
   }
 }
 @media only screen and (max-width: 600px) {
+  #about{
+    padding:12rem 0;
+  }
   .intro-info {
     text-align: center;
     margin-top: 3rem;
@@ -2356,10 +2353,14 @@ header .logo a {
 **/
 #case-study {
   background-color: #ffffff;
-  padding-top: 3rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 .float-right {
   float: right;
+}
+.mt-2{
+  margin-top:2rem;
 }
 
 /** 
